@@ -4,7 +4,7 @@ console.log(casuale)
 
 function contatore() {
   x=casuale.length
-  alert(x)
+  alert('la parola è composta da ' + x + ' lettere')
   return(alert) ;
 
 }
