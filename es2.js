@@ -9,14 +9,16 @@ function contatore() {
 
 }
 contatore()//richiamo della funzione
-
-for (var i = 0; i < 7; i++) {//inizio del ciclo for
+a=0
+contatore=0
+while ((a!=casuale) && (contatore<7)) {
   a=prompt('indovina la parola')
+  contatore++;
   if (a==casuale) {
     alert('hai indovinato')
-  }
+ }
 }
-if (i==7) {
+if (contatore==7) {
   alert('hai perso')
 
 }
