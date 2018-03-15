@@ -1,6 +1,6 @@
-var Lista = ['casa', 'ciao', 'penna', 'mucca', 'ambarabacciccicocco', 'samurai'];
+var Lista = ['ciao', 'penna', 'mucca', 'ambarabacciccicocco', 'samurai', 'armadio'];
 var casuale = Lista[Math.floor(Math.random()*Lista.length)];
-console.log(casuale)
+alert(casuale)
 
 function contatore() {
   x=casuale.length
@@ -9,3 +9,14 @@ function contatore() {
 
 }
 contatore()
+
+for (var i = 0; i < 7; i++) {
+  a=prompt('indovina la parola')
+  if (a==casuale) {
+    alert('hai indovinato')
+  }
+}
+if (i==7) {
+  alert('hai perso')
+
+}
