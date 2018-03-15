@@ -11,7 +11,7 @@ function contatore() {
 contatore()//richiamo della funzione
 a=0
 contatore=0
-while ((a!=casuale) && (contatore<7)) {
+while ((a!=casuale) && (contatore<7)) { //inizio ciclo while
   a=prompt('indovina la parola')
   contatore++;
   if (a==casuale) {
